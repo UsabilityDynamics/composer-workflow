@@ -1,5 +1,5 @@
 {
-    "name": "usabilitydynamics/composer-aws",
+    "name": "usabilitydynamics/composer-workflow",
     "type": "composer-plugin",
     "description": "A composer plugin that allows installing packages stored on S3",
     "keywords": ["amazon", "aws", "s3", "composer", "composer-plugin", "plugin"],
