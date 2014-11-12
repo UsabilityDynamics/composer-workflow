@@ -1,25 +1,22 @@
 {
-    "name": "usabilitydynamics/composer-workflow",
-    "type": "composer-plugin",
-    "description": "A composer plugin that allows installing packages stored on S3",
-    "keywords": ["amazon", "aws", "s3", "composer", "composer-plugin", "plugin"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nils Adermann",
-            "email": "naderman@naderman.de",
-            "homepage": "http://www.naderman.de"
-        }
-    ],
-    "autoload": {
-        "psr-0": {
-            "UsabilityDynamics\\Composer\\Workflow\\": "src/"
-        }
-    },
-    "extra": {
-        "class": "UsabilityDynamics\\Composer\\Workflow\\Plugin"
-    },
-    "require": {
-        "composer-plugin-api": "1.0.0"
-    }
+  "name": "usabilitydynamics/composer-workflow",
+  "type": "composer-plugin",
+  "description": "Adds workflow utilities.",
+  "keywords": [
+    "composer",
+    "composer-plugin",
+    "plugin"
+  ],
+  "license": "MIT",
+  "authors": [ { "name": "Andy Potanin", "homepage": "http://usabilitydynamics.com" } ],
+  "autoload": {
+    "psr-0": { "UsabilityDynamics\\Composer\\Workflow\\": "src/" }
+  },
+  "extra": {
+    "class": "UsabilityDynamics\\Composer\\Workflow\\Plugin"
+  },
+  "require": {
+    "composer-plugin-api": "1.0.0",
+    "naderman/composer-aws": "~0.2"
+  }
 }
