@@ -23,8 +23,8 @@ use Composer\Plugin\PreFileDownloadEvent;
  *
  * @author Nils Adermann <naderman@naderman.de>
  */
-class AwsPlugin implements PluginInterface, EventSubscriberInterface {
-	
+class Plugin implements PluginInterface, EventSubscriberInterface {
+
     protected $composer;
     protected $io;
 

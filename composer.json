@@ -17,7 +17,7 @@
         }
     },
     "extra": {
-        "class": "Naderman\\Composer\\AWS\\AwsPlugin"
+        "class": "Naderman\\Composer\\AWS\\Plugin"
     },
     "require": {
         "composer-plugin-api": "1.0.0"
