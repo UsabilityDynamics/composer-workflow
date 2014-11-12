@@ -24,25 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UsabilityDynamics/Composer/Workflow/Plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.333334" vertical-offset="115" max-vertical-offset="795">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.53846157" vertical-offset="115" max-vertical-offset="810">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
               <folding>
                 <element signature="e#6#262#0#PHP" expanded="true" />
                 <element signature="e#312#334#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.022255193" vertical-offset="0" max-vertical-offset="674">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -67,7 +57,6 @@
         <option value="$USER_HOME$/.composer/vendor/usabilitydynamics/composer-workflow/src/UsabilityDynamics/Console/Event.php" />
         <option value="$USER_HOME$/.composer/vendor/usabilitydynamics/composer-workflow/src/UsabilityDynamics/Workflow/Plugin.php" />
         <option value="$USER_HOME$/.composer/vendor/usabilitydynamics/composer-workflow/composer.json" />
-        <option value="$USER_HOME$/.composer/vendor/usabilitydynamics/composer-workflow/src/UsabilityDynamics/Composer/Workflow/Plugin.php" />
         <option value="$USER_HOME$/.composer/vendor/autoload.php" />
         <option value="$USER_HOME$/.composer/vendor/usabilitydynamics/composer-workflow/src/UsabilityDynamics/Composer/Workflow/SubtreeClient.php" />
         <option value="$USER_HOME$/.composer/vendor/composer/autoload_classmap.php" />
@@ -92,8 +81,9 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/../composer-aws/composer.json" />
         <option value="$USER_HOME$/.composer/composer.json" />
-        <option value="$PROJECT_DIR$/src/UsabilityDynamics/Composer/Workflow/Plugin.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$USER_HOME$/.composer/vendor/usabilitydynamics/composer-workflow/src/UsabilityDynamics/Composer/Workflow/Plugin.php" />
+        <option value="$PROJECT_DIR$/src/UsabilityDynamics/Composer/Workflow/Plugin.php" />
       </list>
     </option>
   </component>
@@ -475,22 +465,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UsabilityDynamics/Composer/Workflow/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.333334" vertical-offset="115" max-vertical-offset="795">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <element signature="e#6#262#0#PHP" expanded="true" />
-            <element signature="e#312#334#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022255193" vertical-offset="0" max-vertical-offset="674">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.composer/vendor/usabilitydynamics/composer-workflow/src/UsabilityDynamics/Composer/Workflow/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41538462" vertical-offset="0" max-vertical-offset="650">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UsabilityDynamics/Composer/Workflow/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53846157" vertical-offset="115" max-vertical-offset="810">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="e#6#262#0#PHP" expanded="true" />
+            <element signature="e#312#334#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

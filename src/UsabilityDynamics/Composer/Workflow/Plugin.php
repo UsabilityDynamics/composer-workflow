@@ -29,6 +29,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
     protected $io;
 
     public function activate(Composer $composer, IOInterface $io) {
+	    // die( "all your base are belong to us.'\n");
         $this->composer = $composer;
         $this->io = $io;
     }
