@@ -23,39 +23,23 @@ use Composer\Plugin\PreFileDownloadEvent;
  *
  * @author Nils Adermann <naderman@naderman.de>
  */
-class AwsPlugin implements PluginInterface, EventSubscriberInterface
-{
+class AwsPlugin implements PluginInterface, EventSubscriberInterface {
+	
     protected $composer;
     protected $io;
 
-    public function activate(Composer $composer, IOInterface $io)
-    {
+    public function activate(Composer $composer, IOInterface $io) {
         $this->composer = $composer;
         $this->io = $io;
     }
 
-    public static function getSubscribedEvents()
-    {
+    public static function getSubscribedEvents() {
         return array(
-            PluginEvents::PRE_FILE_DOWNLOAD => array(
-                array('onPreFileDownload', 0)
-            ),
+            // PluginEvents::PRE_FILE_DOWNLOAD => array( array('onPreFileDownload', 0) ),
         );
     }
 
-    public function onPreFileDownload(PreFileDownloadEvent $event)
-    {
-        $protocol = parse_url($event->getProcessedUrl(), PHP_URL_SCHEME);
+    public function onPreFileDownload(PreFileDownloadEvent $event) {
 
-        if ($protocol === 's3') {
-            $awsClient = new AwsClient($this->io, $this->composer->getConfig());
-            $s3RemoteFilesystem = new S3RemoteFilesystem(
-                $this->io,
-                $this->composer->getConfig(),
-                $event->getRemoteFilesystem()->getOptions(),
-                $awsClient
-            );
-            $event->setRemoteFilesystem($s3RemoteFilesystem);
-        }
     }
 }

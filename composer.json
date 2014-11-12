@@ -20,7 +20,6 @@
         "class": "Naderman\\Composer\\AWS\\AwsPlugin"
     },
     "require": {
-        "aws/aws-sdk-php": "2.*",
         "composer-plugin-api": "1.0.0"
     }
 }
