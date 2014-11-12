@@ -34,9 +34,11 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
     }
 
     public static function getSubscribedEvents() {
+
         return array(
             // PluginEvents::PRE_FILE_DOWNLOAD => array( array('onPreFileDownload', 0) ),
         );
+
     }
 
     public function onPreFileDownload(PreFileDownloadEvent $event) {
