@@ -13,11 +13,11 @@
     ],
     "autoload": {
         "psr-0": {
-            "UsabilityDynamics\\Composer\\AWS\\": "src/"
+            "UsabilityDynamics\\Composer\\Workflow\\": "src/"
         }
     },
     "extra": {
-        "class": "UsabilityDynamics\\Composer\\AWS\\Plugin"
+        "class": "UsabilityDynamics\\Composer\\Workflow\\Plugin"
     },
     "require": {
         "composer-plugin-api": "1.0.0"

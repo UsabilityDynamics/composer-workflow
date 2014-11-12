@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace UsabilityDynamics\Composer\AWS;
+namespace UsabilityDynamics\Composer\Workflow;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
@@ -19,7 +19,7 @@ use Composer\Plugin\PluginEvents;
 use Composer\Plugin\PreFileDownloadEvent;
 
 /**
- * Composer Plugin for AWS functionality
+ * Composer Plugin for Workflow functionality
  *
  * @author Nils Adermann <naderman@naderman.de>
  */
