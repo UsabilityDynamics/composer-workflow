@@ -16,7 +16,6 @@
     "class": "UsabilityDynamics\\Composer\\Workflow\\Plugin"
   },
   "require": {
-    "composer-plugin-api": "1.0.0",
-    "naderman/composer-aws": "~0.2"
+    "composer-plugin-api": "1.0.0"
   }
 }
