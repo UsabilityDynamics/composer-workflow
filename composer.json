@@ -13,11 +13,11 @@
     ],
     "autoload": {
         "psr-0": {
-            "Naderman\\Composer\\AWS\\": "src/"
+            "UsabilityDynamics\\Composer\\AWS\\": "src/"
         }
     },
     "extra": {
-        "class": "Naderman\\Composer\\AWS\\Plugin"
+        "class": "UsabilityDynamics\\Composer\\AWS\\Plugin"
     },
     "require": {
         "composer-plugin-api": "1.0.0"

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Naderman\Composer\AWS;
+namespace UsabilityDynamics\Composer\AWS;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
