@@ -16,6 +16,7 @@
     "class": "UsabilityDynamics\\Composer\\Workflow\\Plugin"
   },
   "require": {
-    "composer-plugin-api": "1.0.0"
+    "composer-plugin-api": "1.0.0",
+    "fxp/composer-asset-plugin": "~1.0"
   }
 }
